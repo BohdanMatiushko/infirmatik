@@ -1,0 +1,131 @@
++++<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            text-align: justify;
+            margin: 10px 0;
+        }
+        p:nth-child(odd) {
+            color: green;
+        }
+        p:nth-child(even) {
+            color: darkred;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        td img {
+            width: 50px;
+            height: auto;
+        }
+        td {
+            font-size: 0.9em;
+        }
+        .buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .buttons button {
+            padding: 10px;
+            margin: 0 10px;
+        }
+        .form-elements {
+            margin: 20px 0;
+        }
+        .form-elements label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        select, input[type="text"] {
+            padding: 5px;
+            width: 100%;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Лабораторна робота</h1>
+
+<img src="image.jpg" alt="Зображення до лабораторної роботи">
+
+<p>Теоретичні дані з попередньої лабораторної роботи...</p>
+<p>Додаткові теоретичні дані для роботи...</p>
+
+<table>
+    <tr>
+        <th>Зображення</th>
+        <th>Пошукова система</th>
+        <th>Запит</th>
+        <th>Час пошуку</th>
+        <th>Кількість знайдених документів</th>
+    </tr>
+    <tr>
+        <td><img src="rambler.jpg" alt="Rambler"></td>
+        <td>www.rambler.ru</td>
+        <td>«прогноз погоди на вівторок»</td>
+        <td>0.3 хв</td>
+        <td>95</td>
+    </tr>
+    <tr>
+        <td><img src="yahoo.jpg" alt="Yahoo"></td>
+        <td>www.yahoo.com</td>
+        <td>«програма»</td>
+        <td>0.5 хв</td>
+        <td>115</td>
+    </tr>
+</table>
+
+<div class="buttons">
+    <button onclick="document.body.style.backgroundColor = 'lightblue'">Кнопка1</button>
+    <button onclick="document.body.style.backgroundColor = 'lightgreen'">Кнопка2</button>
+    <button onclick="document.body.style.backgroundColor = 'white'">Кнопка3</button>
+</div>
+
+<div class="form-elements">
+    <label for="input-text">Введіть текст:</label>
+    <input type="text" id="input-text" autofocus="Введіть ">
+
+    <label for="seasons">Оберіть пору року:</label>
+    <select id="seasons">
+        <option value="winter">Зима</option>
+        <option value="spring">Весна</option>
+        <option value="summer">Літо</option>
+        <option value="autumn">Осінь</option>
+    </select>
+</div>
+
+<a href="web170.html">Контрольні питання 1-ї лабораторної роботи</a>
+<a href="web171.html">Контрольні питання цієї лабораторної роботи</a>
+
+</body>
+</html>
